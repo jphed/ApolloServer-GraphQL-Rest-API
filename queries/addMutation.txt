@@ -1,0 +1,42 @@
+mutation CreatePoet {
+    createPoet(
+        first_name: "Jorge"
+        surname: "Parra"
+        address: "calle 123"
+        postcode: "31050"
+        telephone_number: "6141224058"
+    ) {
+        poet_code
+        first_name
+        surname
+        address
+        postcode
+        telephone_number
+    }
+    createPoem(poem_title: "fortnite", poem_contents: "JAJAJA", poet_code: 5) {
+        poem_code
+        poem_title
+        poet_code
+        poem_contents
+    }
+    createCustomer(
+        first_name: "Jose"
+        surname: "Holguin"
+        address: "calle 234"
+        postcode: "31050"
+        telephone_number: "1111111"
+    ) {
+        customer_code
+        first_name
+        surname
+        address
+        postcode
+        telephone_number
+    }
+    createSale(date: "2025-05-21", amount: 699.00, customer_code: 50) {
+        sale_code
+        date
+        amount
+        customer_code
+    }
+}
