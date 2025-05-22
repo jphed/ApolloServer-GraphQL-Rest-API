@@ -65,5 +65,3 @@ Este proyecto tiene como objetivo demostrar el dominio en el diseño y manipulac
 #### 2.8 Variables de Entorno
 - Se usó el paquete `dotenv` para gestionar la configuración sensible del servidor:
   - Archivo `.env` contiene `DB_HOST`, `DB_USER`, `DB_PASS`, etc.
-
-#### 2.9 Estructura de Archivos
