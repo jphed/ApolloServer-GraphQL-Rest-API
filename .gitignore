@@ -1,0 +1,15 @@
+# Ignorar archivos de socket y temporales
+*.sock
+
+# Ignorar archivos específicos de MySQL o Docker
+container/*.sock
+container/binlog.index
+container/ib_buffer_pool
+container/auto.cnf
+
+# Ignorar carpetas de datos (si existiera)
+container/data/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
